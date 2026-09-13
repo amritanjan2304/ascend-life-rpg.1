@@ -1,0 +1,2 @@
+export type User={id:string;name:string;email:string;level:number;xp:number;gold:number;strength:number;wisdom:number;intellect:number;spirit:number;currentStreak:number;bestStreak:number;theme:string};
+export type Quest={id:string;title:string;description:string;category:string;difficulty:string;xp_reward:number;gold_reward:number;attribute:string;frequency:string;completed:boolean;completed_at?:string};

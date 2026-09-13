@@ -1,0 +1,1 @@
+import {useEffect} from 'react';import {useAuth} from '../hooks/useAuth';export default function ThemeSync(){const{user}=useAuth();useEffect(()=>{document.documentElement.dataset.theme=user?.theme||'nightfall'},[user?.theme]);return null}
